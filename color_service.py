@@ -1,6 +1,6 @@
 import json
 
-class COLORS():
+class COLOR_SERVICE():
     
     def __init__(self):
         colors_file = open('colors.json')
@@ -13,7 +13,9 @@ class COLORS():
             rgb = self.colors[color]
             rgb_out = []
             for color in rgb:
-                rgb_out.append(int(color * brightness / 100))
+                rgb_out.append(
+                    int(color * brightness / 100))
             return(rgb_out)
         except:
-            return ([100,0,0])
+            return ([0,0,0])
+        

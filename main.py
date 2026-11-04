@@ -27,7 +27,8 @@ colors =[
     "orange",
     "yellow",
     "green",
-    "blue","violet"]
+    "blue",
+    "violet"]
 brightness = 100
 
 map_colors()

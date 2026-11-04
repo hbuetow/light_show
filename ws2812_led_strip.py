@@ -1,5 +1,4 @@
 import array
-import rp2
 from rp2 import PIO, StateMachine, asm_pio
 
 @asm_pio(
